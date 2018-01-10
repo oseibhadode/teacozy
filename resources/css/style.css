@@ -6,6 +6,9 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 nav span {
@@ -24,7 +27,6 @@ header {
   height: 69px;
   border-bottom: 1px solid white;
   background-color: black;
-  /*text-decoration: underline;*/
 }
 
 .logo {
@@ -36,4 +38,128 @@ header {
 
 #nav-color {
   color: white;
+}
+
+/*Main Cotent Container*/
+
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+  }
+
+.flex-con {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.message {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.flex-images1 {
+  height: 250px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.flex-images2 {
+  height: 280px;
+  width: 670px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height:200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #location {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    padding-top: 70px;
+    margin: auto;
+  }
+
+  .location {
+    margin: auto;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+  }
+
+  .flex-locations {
+    height: 250px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+
+.location p {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.location h3 {
+  font-size: 30px;
+}
+
+.flex-con h2 {
+  font-size: 40px;
+}
+
+.tea-cozy {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
